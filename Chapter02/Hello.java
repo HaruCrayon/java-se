@@ -10,13 +10,13 @@ public class Hello {
 	}
 }
 
-class dog {
+class Dog {
 	public static void main(String[] args) {
 		System.out.println("hello,dog");
 	}
 }
 
-class tiger {
+class Tiger {
 	public static void main(String[] args) {
 		System.out.println("hello,tiger");
 	}

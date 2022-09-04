@@ -1,0 +1,26 @@
+﻿
+JDK、JRE、JVM的关系
+1.JDK = JRE + java开发工具集
+2.JRE = JVM + JavaSE标准类库(java核心类库)
+
+
+环境变量path配置及其作用
+1.作用：是为了在dos的任意目录，可以去使用javac和java等命令
+2.先配置 JAVA_HOME = 指向jdk安装的主目录
+3.编辑path环境变量，增加 %JAVA_HOME%\bin
+
+
+java编写步骤
+1.编写java源代码 .java
+2.javac 编译，得到对应的 .class 字节码文件
+3.java 运行，本质就是把 .class 加载到jvm 运行
+
+
+java编写7个规范
+1.类、方法的注释，使用javadoc的方式，即文档注释
+2.非javadoc注释，是对代码的说明(给程序维护者看的)，说明为什么这么写、如何修改、注意事项
+3.使用tab，将代码整体右移；shift+tab 整体左移
+4.运算符和= 的两边，给空格，代码看上去清楚，比如 int n = a + b;
+5.源文件使用 utf-8 编码
+6.行宽度不超过80字符
+7.代码编写次行风格和行尾风格(推荐)
