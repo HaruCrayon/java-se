@@ -1,9 +1,9 @@
 
-//java入门
+//java鍏ラ棬
 
 public class Hello {
 
-	//编写一个main方法
+	//缂栧啓涓�涓猰ain鏂规硶
 	public static void main(String[] args) {
 		System.out.println("hello,world~");
 
