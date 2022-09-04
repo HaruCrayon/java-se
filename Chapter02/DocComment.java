@@ -1,6 +1,6 @@
 
-//javaÎÄµµ×¢ÊÍ
-//ÃüÁî javadoc -d temp -author -version DocComment.java
+//javaæ–‡æ¡£æ³¨é‡Š
+//å‘½ä»¤ javadoc -d temp -author -version DocComment.java
 
 /**
  * @author lee
